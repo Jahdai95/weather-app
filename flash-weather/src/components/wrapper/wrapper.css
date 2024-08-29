@@ -1,0 +1,28 @@
+.background {
+  background-image: url("./../../assets/summer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ajusta la altura según sea necesario */
+  width: 100vw; /* Ajusta el ancho según sea necesario */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 90%;
+  }
+}

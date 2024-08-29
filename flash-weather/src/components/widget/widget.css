@@ -1,0 +1,20 @@
+.container-condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-footer {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-widget {
+  width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-widget {
+    width: 100%;
+  }
+}
