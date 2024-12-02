@@ -40,7 +40,7 @@ const Favorites = () => {
           <IconButton onClick={() => navigate("/")}>
             <ArrowBackIosNewOutlinedIcon />
           </IconButton>
-          No tienes ninguna ciudad como favorita
+          No tienes ninguna ciudad como favorita listada
         </h3>
       )}
     </Wrapper>
